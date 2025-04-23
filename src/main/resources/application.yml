@@ -2,8 +2,11 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/samdi
     username: root
-    password: ?? ??
+    password: 14611752Es^^
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
+
+server:
+  port: 8082
